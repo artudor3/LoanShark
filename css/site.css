@@ -4,20 +4,28 @@
     --at-primary-color: #001ef3;
     --at-secondary-color: #ff993b;
 }
-
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
     min-height: 90vh;
 }
 
-
 /*-- NAV BAR STYLES --*/
 .navbarBG {
     background-color: var(--at-dark-color);
 }
 
+body {
+    background-color: rgb(167, 208, 255);
+}
+.form1 {
+    background-color: rgb(123, 178, 241);
+}
+thead>tr {
+    background-color: rgb(58, 146, 248);
+}
 
+/*-- Icon Styles --*/
 .jsicon{
     color: #e2d304;
 }

@@ -54,16 +54,26 @@
     <main class="flex-shrink-0">
         <div class="container mt-5">
             <h1>Loan Calculator</h1>
+            <!-- Row for input display columns -->
             <div class="row">
-                <div class="col">
-                    <form class="row">
-                        <label for="loanAmount">Loan Amount:</label>
-                        <input id="loanAmount" type="number" value="15000" placeholder="Enter an Amount">
-                        <label for="loanTerm">Payments:</label>
-                        <input id="loanTerm" type="number" value="60" placeholder="Enter an Amount">
-                        <label for="loanRate">Rate:</label>
-                        <input id="loanRate" type="number" value="3" placeholder="Enter an Amount">
-                        <div class="p-2 d-flex justify-content-end">
+                <!-- Column for Input Form -->
+                <div class="col form1">
+                    <form>
+                        <div class="form-group">
+                            <label for="loanAmount">Loan Amount:</label>
+                            <input id="loanAmount" class="form-control" type="number" value="15000"
+                                placeholder="Enter an Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="loanTerm">Payments:</label>
+                            <input id="loanTerm" class="form-control" type="number" value="60" placeholder="Enter an Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="loanRate">Rate:</label>
+                            <input id="loanRate" class="form-control" type="number" value="3"
+                                placeholder="Enter an Amount">
+                        </div>
+                        <div class="form-group mt-2 float-end">
                             <button id="btnSubmit" type="button" class="btn btn-primary">Calculate</button>
                         </div>
                     </form>
@@ -90,7 +100,7 @@
                 </div>
                 <div class="col-12">
                     <table class="table table-striped mt-3">
-                        <thead>
+                        <thead class="tableheader">
                             <tr>
                                 <th>Month</th>
                                 <th>Payment</th>
