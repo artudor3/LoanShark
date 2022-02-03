@@ -76,6 +76,12 @@ thead>tr {
     color: var(--at-light-color);
 }
 
+.footerName {
+    font-size: 2rem;
+    font-family: 'Playball',
+        cursive;
+}
+
 .sticky-footer {
     position: sticky;
     left: 0;
